@@ -1,0 +1,19 @@
+Write a “person” class to hold all the details.
+
+Code : class Person {
+  constructor (name, age, gender, batch){
+    this.name=name;
+    this.age=age;
+    this.gender=gender;
+    this.batch=batch;
+  }
+  getname(){
+      return "Your name "+this.name+" age "+this.age+" Gender "+this.gender+" Batch "+this.batch;
+  }
+} 
+var c1=new Person("Bala","24","Male","B49WD");
+console.log(c1.getname());
+
+O/P : Your name Bala age 24 Gender Male Batch B49WD
+
+
