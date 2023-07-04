@@ -1,0 +1,17 @@
+https://github.com/rvsp/typescript-oops/blob/master/Practice/Movie.md
+
+Code : class Movie {
+  constructor(title, studio, rating) {
+    this.title =  title;
+    this.studio = studio;
+    this.rating = rating;
+  }
+
+  getpg() {
+    return "Movie name "+this.title+" Studio "+this.studio+" this movie rating "+this.rating;
+  }
+}
+var c1=new Movie("Casino Royale","Eon Productions","PG13");
+console.log(c1.getpg());
+
+O/P :Movie name Casino Royale Studio Eon Productions this movie rating PG13
