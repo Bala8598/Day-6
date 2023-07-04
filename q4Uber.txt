@@ -1,0 +1,29 @@
+write a class to calculate the uber price.
+
+Code class Uber {
+  constructor(person,location,) {
+    this.person = person;
+    this.location =  location;
+    //this.distance = distance;
+    //this.charge = charge;
+    //this.totalprice = totalprice;
+  }
+
+  gettravel() {
+    return "HI "+this.person+" your location is "+this.location;
+  }
+}
+var c1=new Uber("Bala","Chennai","i","j","k");
+console.log(c1.gettravel());
+ i= 55;
+console.log("Travelled distance",i)
+ j= 10;
+console.log("Charge per KM",j)
+k=i*j;
+console.log("total fare is",k);
+
+
+O/P HI Bala your location is Chennai
+Travelled distance 55
+Charge per KM 10
+total fare is 550
